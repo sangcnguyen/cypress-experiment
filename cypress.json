@@ -1,3 +1,13 @@
 {
-    "integrationFolder":"cypress/tests"
+    "baseUrl":"https://react-redux.realworld.io",
+    "reporter": "mochawesome",
+    "reporterOptions":{
+        "reportDir":"cypress/results",
+        "overwrite":false,
+        "html":false,
+        "json":true
+    },
+    "integrationFolder":"cypress/e2e",
+    "videosFolder":"report/videos",
+    "screenshotsFolder":"report/screenshots"
 }

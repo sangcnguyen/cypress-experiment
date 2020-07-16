@@ -4,7 +4,10 @@
       "baseUrl": "../node_modules",
       "target": "ES2018",
       "lib": ["ES2018", "dom"],
-      "types": ["cypress"]
+      "types": ["cypress"],
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true
     },
     "include": [
       "**/*.ts"
