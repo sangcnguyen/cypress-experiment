@@ -9,7 +9,7 @@ describe('Profile', () => {
     cy.visit('/#/settings');
   });
 
-  it('shows my profile', () => {
+  it('show my profile', () => {
     // url
     cy.get(':nth-child(1) > .form-control').clear();
     cy.get(':nth-child(1) > .form-control').type(faker.image.imageUrl());
