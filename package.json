@@ -1,30 +1,31 @@
 {
-    "name": "cypress-demo",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "cypress:open": "cypress open",
-        "cypress:run": "cypress run --headless --browser chrome",
-        "combine:report": "mochawesome-merge cypress/results/*.json -o index.json",
-        "generate:report": "marge index.json --reportDir report --assetDir report/assets"
-    },
-    "keywords": [
-        "cypress,example,demo"
-    ],
-    "author": "Sang Nguyen",
-    "license": "ISC",
-    "dependencies": {
-        "cypress": "^4.10.0",
-        "typescript": "^3.9.5"
-    },
-    "devDependencies": {
-        "@types/faker": "^4.1.12",
-        "@types/mocha": "^7.0.2",
-        "faker": "^4.1.0",
-        "mochawesome": "^6.1.1",
-        "mochawesome-merge": "^4.1.0",
-        "mochawesome-report-generator": "^5.1.0"
-    }
+  "name": "cypress-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --headless --browser chrome",
+    "combine:report": "mochawesome-merge cypress/results/*.json -o index.json",
+    "generate:report": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html",
+    "publish:report": "npm run combine:report && npm run generate:report"
+  },
+  "keywords": [
+    "cypress,example,demo"
+  ],
+  "author": "Sang Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^5.2.0",
+    "typescript": "^4.0"
+  },
+  "devDependencies": {
+    "@types/faker": "^4.1.12",
+    "@types/mocha": "^7.0.2",
+    "faker": "^4.1.0",
+    "mocha": "^8.1.1",
+    "mochawesome": "^6.1.1",
+    "mochawesome-merge": "^4.1.0"
+  }
 }

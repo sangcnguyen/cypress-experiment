@@ -1,2 +1,5 @@
 node_modules/
 cypress/videos
+public/
+results/
+index.json
