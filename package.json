@@ -16,7 +16,7 @@
   "author": "Sang Nguyen",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^5.2.0",
+    "cypress": "^5.5.0",
     "typescript": "^4.0"
   },
   "devDependencies": {
