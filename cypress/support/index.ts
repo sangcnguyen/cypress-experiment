@@ -1,4 +1,5 @@
 import './commands';
+import '@testing-library/cypress/add-commands';
 // @ts-ignore
 import addContext from 'mochawesome/addContext';
 

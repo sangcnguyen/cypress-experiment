@@ -10,8 +10,5 @@
   "integrationFolder": "cypress/e2e",
   "videosFolder": "cypress/videos",
   "screenshotsFolder": "report/screenshots",
-  "videoCompression": false,
-  "env": {
-    "NO_COMMAND_LOG": "1"
-  }
+  "videoCompression": false
 }
