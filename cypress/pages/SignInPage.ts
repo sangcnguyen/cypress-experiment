@@ -17,9 +17,11 @@ export class SignInPage {
 
   enterAccount(username?: string, password?: string): void {
     if (username) {
+      this.getUsernameTxf().clear();
       this.getUsernameTxf().type(username);
     }
     if (password) {
+      this.getPasswordTxf().clear();
       this.getPasswordTxf().type(password);
     }
     this.getSubmitBtn().click();
