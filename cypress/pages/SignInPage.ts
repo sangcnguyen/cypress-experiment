@@ -1,4 +1,4 @@
-export class SignInPage {
+class SignInPage {
   getUsernameTxf() {
     return cy.get('input[type="email');
   }
@@ -27,3 +27,5 @@ export class SignInPage {
     this.getSubmitBtn().click();
   }
 }
+
+export default new SignInPage();

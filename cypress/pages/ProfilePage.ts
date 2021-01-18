@@ -1,4 +1,4 @@
-export class ProfilePage {
+class ProfilePage {
   getProfilePictureTxf() {
     return cy.findByPlaceholderText('URL of profile picture');
   }
@@ -25,3 +25,5 @@ export class ProfilePage {
     this.getUpdateBtn().click();
   }
 }
+
+export default new ProfilePage();
