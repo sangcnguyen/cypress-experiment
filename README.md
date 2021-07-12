@@ -1,5 +1,3 @@
-> A pilot project serves during my work
-
 ### How to run this project?
 
 1. Install npm package `npm install`
