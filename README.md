@@ -3,4 +3,4 @@
 1. Install npm package `npm install`
 2. Run tests from command line `npm run cypress:run`
 
-### Report for all tests are available at: https://sangcnguyen.github.io/cypress-demo/
+Report for all my tests are available at, please take a look: https://sangcnguyen.github.io/cypress-experiment/
